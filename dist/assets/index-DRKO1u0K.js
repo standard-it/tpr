@@ -1,0 +1,1 @@
+import{a as t}from"./axios-CCb-kr4I.js";import{k as o,e as s}from"./index-DEZaLq76.js";const a="http://192.168.20.8/oprr/api/streams",m=o("monitoring",()=>{const r=s({});return{elements:r,fetchAll:async()=>{try{const{data:e}=await t.get(a);r.value=e}catch(e){console.error("Error fetching schemes:",e)}}}});export{m as u};
